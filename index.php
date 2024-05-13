@@ -48,6 +48,7 @@
                     <div class="d-grid gap-2">
                         <button type="submit" name="btn_submit" class="btn btn-dark">Submit</button>
                         <p class="text-center small">Copyright @2024</p>
+                        <p class="text-center small">This is a sample changes</p>
                     </div>
                     
                 </form>
@@ -73,7 +74,7 @@
                 ?>
 
                         <!-- # Display the output -->
-                        <div class='border padding-2 mt-2 rounded bg-dark text-white'>
+                        <div class='border padding-4 mt-2 rounded bg-dark text-white'>
                                 <?php $student->displayTuition(); ?>
                         </div>
                         

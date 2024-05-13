@@ -1,5 +1,7 @@
 <?php
 class Tuition {
+
+    # Define properties
     public $studentName;
     public $yearLevel;
     public $totalUnits;
@@ -63,10 +65,4 @@ class Tuition {
         echo "Total Price: " . number_format($this->totalPrice, 2) . "<br>";
     }
 }
-
-// $student = new Tuition();
-// $student->setValues($studentName, $yearLevel, $totalUnits, $chooseLab, $totalPrice);
-
-// $student->calculateTuition();
-
 ?>
